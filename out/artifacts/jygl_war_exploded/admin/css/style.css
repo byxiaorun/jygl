@@ -1,0 +1,35 @@
+body{
+    background: #FFFFFF;
+}
+#link{
+    color: #c75f3e;
+    text-decoration: none;
+}
+table{
+    border-left: 1px solid #dddddd;
+    border-right:1px solid #dddddd;
+}
+th{
+    font:bold 15px 微软雅黑,Arial;
+    border-bottom: 1px solid #dddddd;
+    border-top:1px solid #dddddd;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+    background: #23a6c7;
+    height: 30px;
+    line-height: 30px;
+}
+td{
+    font-family: 微软雅黑, sans-serif;
+    border-bottom: #ffffff;
+    font-size: 14px;
+    padding: 6px 6px 6px 12px;
+    height: 30px;
+    line-height: 30px;
+}
+tr.change:hover{
+    background-color: #eeeeee;
+}
+tr.change:hover td{
+    background: none;
+}

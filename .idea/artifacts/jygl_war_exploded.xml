@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jygl:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jygl_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jygl" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" />
+        </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/web/admin/layer" />
+      </element>
+      <element id="library" level="project" name="classes" />
+      <element id="javaee-facet-resources" facet="jygl/web/Web" />
+    </root>
+  </artifact>
+</component>
